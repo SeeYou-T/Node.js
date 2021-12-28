@@ -1,0 +1,22 @@
+[2021-12-24T17:43:37.120] [DEBUG] cheese - URL {
+  href: 'https://www.bilibili.com/video/BV1ca4y1n7u3?p=15&spm_id_from=pageDriver',
+  origin: 'https://www.bilibili.com',
+  protocol: 'https:',
+  username: '',
+  password: '',
+  host: 'www.bilibili.com',
+  hostname: 'www.bilibili.com',
+  port: '',
+  pathname: '/video/BV1ca4y1n7u3',
+  search: '?p=15&spm_id_from=pageDriver',
+  searchParams: URLSearchParams { 'p' => '15', 'spm_id_from' => 'pageDriver' },
+  hash: ''
+}
+[2021-12-24T17:48:47.576] [DEBUG] cheese - https://www.bilibili.com/video/BV1ca4y1n7u3?p=15&spm_id_from=pageDriver
+[2021-12-24T17:53:59.508] [DEBUG] cheese - https://www.bilibili.com/video/BV1ca4y1n7u3?p=15&spm_id_from=pageDriver
+[2021-12-24T18:00:42.773] [DEBUG] cheese - URLSearchParams {
+  'https://www.bilibili.com/video/BV1ca4y1n7u3?p' => '15',
+  'spm_id_from' => 'pageDriver' }
+[2021-12-24T18:01:33.038] [DEBUG] cheese - null
+[2021-12-24T18:02:19.409] [DEBUG] cheese - null
+[2021-12-24T18:03:32.255] [DEBUG] cheese - 15

@@ -1,0 +1,27 @@
+{
+  "name": "04_building_module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "log4js": "^6.3.0"
+  },
+  "dependencies": {
+    "debug": "^4.3.3",
+    "fs-extra": "^8.1.0",
+    "date-format": "^3.0.0",
+    "rfdc": "^1.3.0",
+    "flatted": "^2.0.2",
+    "jsonfile": "^4.0.0",
+    "ms": "^2.1.2",
+    "graceful-fs": "^4.2.8",
+    "streamroller": "^2.2.4",
+    "universalify": "^0.1.2"
+  },
+  "description": ""
+}
