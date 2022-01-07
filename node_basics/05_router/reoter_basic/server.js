@@ -35,6 +35,9 @@ const server = http.createServer((req, res) => {
   const urlString = req.url;
   const type = mime.getType(urlString.split(".")[1]);
   console.log(type);
+  res.writeHead(200, {
+    "content-type": type,
+  });
   const file = fs.readFileSync(`.${urlString}`);
   res.end(file);
 });
