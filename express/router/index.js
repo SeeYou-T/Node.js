@@ -1,9 +1,10 @@
 const express = require("express");
 
 const router = express.Router();
-const { list } = require("../controller/index.js");
+const { list, token } = require("../controller/index.js");
 
 router.get("/api/list", list);
+router.get("/api/token", token);
 
 // // 获取数据
 // router.get("/api", (req, res) => {

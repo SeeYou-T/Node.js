@@ -1,3 +1,12 @@
-console.log(13333333333331);
-console.log(22222);
-console.log(33333);
+let data = {
+  name: "",
+  value: "",
+  age: 12,
+};
+Object.keys(data).map((item) => {
+  if (data[item] === "") {
+    delete data[item];
+  }
+});
+
+console.log(data);
